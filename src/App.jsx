@@ -1,14 +1,22 @@
 import { useState } from 'react'
-import logo from './logo.svg'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import './App.css'
+import Navbar from './components/Navbar'
+import HomePage from './pages/HomePage'
+
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold">Welcome to Easybank</h1>
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" exact element={<HomePage />}  />
+        </Routes>
+      </div>
+    </Router>
   )
 }
 
