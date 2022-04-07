@@ -1,11 +1,16 @@
 import React from 'react'
 import Button from '../components/Button'
+import Image from '../assets/image-mockups.png'
 
 function HeroPage() {
     return (
     <div>
-        <div className="flex flex-col md:flex-row-reverse justify-between">
-            <div className="">Image</div>
+        <div className="flex flex-col md:flex-row-reverse justify-between 
+        bg-gray-50">
+            <div className="">
+                <img src={ Image } alt="Brand-Image"
+                className="" />
+            </div>
             <div className='border border-red-400 md:m-12 my-36 
                 md:p-4 p-2 md:w-2/4 w-full text-center mx-auto'>
                     <h2 className="md:text-6xl text-3xl text-gray-700">
