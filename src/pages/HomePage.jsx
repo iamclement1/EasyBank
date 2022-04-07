@@ -1,9 +1,11 @@
 import React from 'react'
+import HeroPage from './HeroPage'
+
 
 function HomePage() {
   return (
     <div>
-      This is the Home page
+      <HeroPage />
     </div>
   )
 }

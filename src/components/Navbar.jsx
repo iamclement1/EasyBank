@@ -18,7 +18,7 @@ function Navbar() {
             <div className='p-5 md:pl-12 pl-3 pr-10'>
                 <div className='flex justify-between bg-white
                 text-gray-500'>
-                    <div className='pt-3 md:pt-0'>
+                    <div className='pt-3 md:pt-2 md:px-16'>
                         <img src= {Logo} alt="Brand_Logo" />
                     </div>
                     <div className='-mr-2 flex md:hidden'>
@@ -59,7 +59,7 @@ function Navbar() {
                         </button>
                 </div>
                     <div className='md:flex hidden
-                    space-x-96 items-center'>
+                    space-x-80 items-center'>
                         <div className='items-baseline space-x-6'>
                             <NavLink to='/'>
                                 Home
