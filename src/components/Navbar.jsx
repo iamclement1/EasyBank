@@ -14,7 +14,7 @@ function Navbar() {
     }
 
     return (
-    <div>
+    <div className="">
         <nav className=''>
             <div className='p-5 md:pl-12 pl-3 pr-10'>
                 <div className='flex justify-between bg-white
