@@ -2,6 +2,7 @@ import React, { useState, Fragment } from 'react'
 import { Link, NavLink } from 'react-router-dom';
 import { Transition } from '@headlessui/react'
 import Logo from '../assets/logo.svg'
+import './Navbar.css'
 
 
 function Navbar() {
@@ -61,19 +62,24 @@ function Navbar() {
                     <div className='md:flex hidden
                     space-x-80 items-center'>
                         <div className='items-baseline space-x-6'>
-                            <NavLink to='/'>
+                            <NavLink to='/' className="link link-underline 
+                            link-underline-green">
                                 Home
                             </NavLink>
-                            <NavLink to='/'>
+                            <NavLink to='/' className="link link-underline 
+                            link-underline-green">
                                 About
                             </NavLink>
-                            <NavLink to='/'>
+                            <NavLink to='/' className="link link-underline 
+                            link-underline-green">
                                 Contact
                             </NavLink>
-                            <NavLink to='/'>
+                            <NavLink to='/' className="link link-underline 
+                            link-underline-green">
                                 Blog
                             </NavLink>
-                            <NavLink to='/'>
+                            <NavLink to='/' className="link link-underline 
+                            link-underline-green">
                                 Career
                             </NavLink>
                         </div>
@@ -102,19 +108,24 @@ function Navbar() {
                         <div ref= {ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                             <div className="block text-center text-gray-600 
                             border border-red-500 ">
-                            <NavLink to='/' className="block mb-4">
+                            <NavLink to='/' className="block mb-4 link link-underline 
+                            link-underline-green">
                                 Home
                             </NavLink>
-                            <NavLink to='/' className="block mb-4">
+                            <NavLink to='/' className="block mb-4 link link-underline 
+                            link-underline-green">
                                 About
                             </NavLink>
-                            <NavLink to='/' className="block mb-4">
+                            <NavLink to='/' className="block mb-4 link link-underline 
+                            link-underline-green">
                                 Contact
                             </NavLink>
-                            <NavLink to='/' className="block mb-4">
+                            <NavLink to='/' className="block mb-4 link link-underline 
+                            link-underline-green">
                                 Blog
                             </NavLink>
-                            <NavLink to='/' className="block mb-4">
+                            <NavLink to='/' className="block mb-4 link link-underline 
+                            link-underline-green">
                                 Career
                             </NavLink>
                             </div>
