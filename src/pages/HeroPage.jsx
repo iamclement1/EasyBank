@@ -34,7 +34,7 @@ function HeroPage() {
                         spending, saving, budgeting, investing, and much more.
                     </p>
 
-                    <Button>Sign in</Button>
+                    <Button className=''>Sign in</Button>
             </div>
         </div>
     </div>

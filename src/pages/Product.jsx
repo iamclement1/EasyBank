@@ -9,8 +9,8 @@ function Product() {
             pt-14 pb-3 p-4'>
                 Why choose Easybank?
             </h2>
-            <p className='text-gray-500 border border-red-400
-            w-2/2 md:text-xm text-sm mx-auto p-4'>
+            <p className='text-gray-500 w-2/2 md:text-xm 
+            text-sm mx-auto p-4'>
                 We leverage Open Banking to turn your bank account into
                 your financial hub. <br />
                 <span>Control your finances like never before.</span>
