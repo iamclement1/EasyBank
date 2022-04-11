@@ -6,7 +6,11 @@ module.exports = {
     "./src/**/*.{js,jsx,}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'hero-pattern': "url(../../assets/bg-intro-desktop.svg)"
+      }
+    },
   },
   plugins: [],
 }

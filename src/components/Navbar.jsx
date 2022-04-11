@@ -15,14 +15,14 @@ function Navbar() {
 
     return (
     <div className="">
-        <nav className=''>
-            <div className='p-5 md:pl-12 pl-3 pr-10'>
+        <nav className='absolute w-full z-20'>
+            <div className=''>
                 <div className='flex justify-between bg-white
-                text-gray-500'>
+                text-gray-500 p-4'>
                     <div className='pt-3 md:pt-2 md:px-16'>
                         <img src= {Logo} alt="Brand_Logo" />
                     </div>
-                    <div className='-mr-2 flex md:hidden'>
+                    <div className='-mr-2 flex md:hidden bg-white'>
                         <button type="button" onClick={handleNav}
                             className="bg-green-400 inline-flex items-center
                             justify-center p-2 rounded hover:bg-green-500
@@ -60,7 +60,7 @@ function Navbar() {
                         </button>
                 </div>
                     <div className='md:flex hidden
-                    space-x-80 items-center'>
+                    space-x-80 items-center bg-white'>
                         <div className='items-baseline space-x-6'>
                             <NavLink to='/' className="link link-underline 
                             link-underline-green">
@@ -104,10 +104,9 @@ function Navbar() {
             leaveTo="opacity-0 scale-95">
 
                 { (ref) => (
-                    <div className="md:hidden" id="mobile-menu">
+                    <div className="md:hidden bg-white" id="mobile-menu">
                         <div ref= {ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                            <div className="block text-center text-gray-600 
-                            border border-red-500 ">
+                            <div className="block text-center text-gray-600 ">
                             <NavLink to='/' className="block mb-4 link link-underline 
                             link-underline-green">
                                 Home
