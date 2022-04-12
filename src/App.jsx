@@ -10,7 +10,7 @@ function App() {
 
   return (
     <Router>
-      <div className="App">
+      <div className="App font-Sans">
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />}  />

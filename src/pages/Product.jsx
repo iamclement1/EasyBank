@@ -23,7 +23,7 @@ function Product() {
             </div>
         </section>
     </div>
-  )
+)
 }
 
 export default Product
