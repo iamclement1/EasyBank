@@ -4,11 +4,9 @@ import Image from '../assets/image-mockups.png'
 
 function HeroPage() {
     return (
-    <div className='bg-hero-pattern '>
-        <div className="bg-hero-pattern flex flex-col md:flex-row-reverse justify-between 
-        bg-gray-50" style={{
-            backgroundImage: 'url(../assets/bg-intro-desktop.svg)'
-        }} >
+    <div className='bg-hero-pattern relative'>
+        <div className="relative bg-hero-pattern flex flex-col md:flex-row-reverse justify-between 
+        bg-gray-50">
             <div className="">
                 <div className=''>
                     <img src={ Image } alt="Brand-Image"

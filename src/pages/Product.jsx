@@ -1,9 +1,9 @@
 import React from 'react'
-import ProductCard from './ProductCard'
+import ProductCard from '../components/ProductCard/ProductCard'
 
 function Product() {
     return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 pb-12">
         <div className='md:px-24 md:py-16  md:text-left text-center w-full'>
             <h2 className='text-gray-700 md:text-3xl text-3xl md:pt-6
             pt-14 pb-3 p-4'>
