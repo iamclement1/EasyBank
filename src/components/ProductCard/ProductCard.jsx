@@ -9,10 +9,10 @@ function ProductCard() {
     return (
     <div>
         <section>
-            <div className="product-card md:flex block md:px-24 justify-between
+            <div className="product-card md:flex block md:px-28 justify-between
             md:text-left text-center">
                 <div className='md:w-1/5 px-6 md:px-0 '>
-                    <img className="border-red-500 border block
+                    <img className="block
                     items-center justify-center" src={ OnlineBanking } alt="banking-icon"/>
                     <h2 className='pt-4 md:text-xl text-gray-600 pb-5'>
                         Online Banking
