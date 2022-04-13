@@ -12,6 +12,10 @@ module.exports = {
       },
       fontFamily: {
         Sans: ['Public Sans', 'sans-serif', '']
+      },
+      color: {
+        transparent: 'transparent',
+        'midnight': '#3e436a' 
       }
     },
   },
