@@ -14,7 +14,8 @@ function ProductCard() {
                 <div className='md:w-1/5 px-6 md:px-0 '>
                     <img className="block
                     items-center justify-center" src={ OnlineBanking } alt="banking-icon"/>
-                    <h2 className='pt-4 md:text-xl text-gray-600 pb-5'>
+                    <h2 className='pt-4 md:text-xl text-gray-600 pb-5
+                    text-xs'>
                         Online Banking
                     </h2>
                     <p className="text-gray-600 text-xs">
